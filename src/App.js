@@ -9,8 +9,10 @@ function App() {
     <Router>
       <div className="app">
         <header className="header">
-          <h1>🎮 Game Reviews</h1>
-          <p>by Ogonx</p>
+          <div className="header-left">
+            <h1>Game Reviews</h1>
+            <p>by Denis</p>
+          </div>
         </header>
         <main className="main">
           <Routes>
